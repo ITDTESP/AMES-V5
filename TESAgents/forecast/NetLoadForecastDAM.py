@@ -83,7 +83,7 @@ print('deltaT:', deltaT)
 
 load = []
 
-FileName = f'NetLoadScData.{name}.DAM.json'
+FileName = f'{name}DAM.json'
 FilePath = './forecast/data/'
 
 # error msg if not present 
