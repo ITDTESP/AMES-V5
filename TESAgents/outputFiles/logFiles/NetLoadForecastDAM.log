@@ -1,0 +1,136 @@
+NetLoadForecastDAM, tmax, RTOPDur 273600 60
+deltaT: 3600
+time step:  0
+time step:  3600
+time step:  7200
+time step:  10800
+time step:  14400
+time step:  18000
+time step:  21600
+time step:  25200
+time step:  28800
+time step:  32400
+time step:  36000
+time step:  39600
+time step:  43200
+time step:  46800
+time step:  50400
+time step:  54000
+time step:  57600
+time step:  61200
+time step:  64800
+time step:  68400
+time step:  72000
+time step:  75600
+time step:  79200
+time step:  82800
+time step:  86400
+h, d: 0 1
+x: 104400
+NLSE:1
+time step:  90000
+time step:  93600
+time step:  97200
+time step:  100800
+time step:  104400
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H1 812.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H2 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H3 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H4 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H5 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H6 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H7 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H8 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H9 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H10 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H11 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H12 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H13 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H14 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H15 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H16 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H17 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H18 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H19 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H20 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H21 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H22 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H23 802.0
+Publishing load forecast to AMES:  104400 loadforecastDAM_LSE1_H24 802.0
+time step:  108000
+time step:  111600
+time step:  115200
+time step:  118800
+time step:  122400
+time step:  126000
+time step:  129600
+time step:  133200
+time step:  136800
+time step:  140400
+time step:  144000
+time step:  147600
+time step:  151200
+time step:  154800
+time step:  158400
+time step:  162000
+time step:  165600
+time step:  169200
+time step:  172800
+h, d: 0 2
+x: 190800
+NLSE:1
+time step:  176400
+time step:  180000
+time step:  183600
+time step:  187200
+time step:  190800
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H1 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H2 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H3 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H4 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H5 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H6 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H7 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H8 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H9 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H10 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H11 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H12 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H13 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H14 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H15 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H16 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H17 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H18 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H19 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H20 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H21 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H22 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H23 803.0
+Publishing load forecast to AMES:  190800 loadforecastDAM_LSE1_H24 803.0
+time step:  194400
+time step:  198000
+time step:  201600
+time step:  205200
+time step:  208800
+time step:  212400
+time step:  216000
+time step:  219600
+time step:  223200
+time step:  226800
+time step:  230400
+time step:  234000
+time step:  237600
+time step:  241200
+time step:  244800
+time step:  248400
+time step:  252000
+time step:  255600
+time step:  259200
+h, d: 0 3
+x: 277200
+NLSE:1
+time step:  262800
+time step:  266400
+time step:  270000
+time step:  273600

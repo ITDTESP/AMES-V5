@@ -1,0 +1,459 @@
+NetLoadForecastRTM, tmax, RTOPDur 273600 60
+M: 60
+time step:  0
+time step:  3600
+d, h: 0 1
+NSteps: 1
+RTM y: 3600
+d2, h1: -1 3 903.0
+Publishing load forecast to AMES:  3600 loadforecastRTM_LSE1 903.0
+time step:  7200
+d, h: 0 2
+NSteps: 1
+RTM y: 7200
+d2, h1: -1 4 904.0
+Publishing load forecast to AMES:  7200 loadforecastRTM_LSE1 904.0
+time step:  10800
+d, h: 0 3
+NSteps: 1
+RTM y: 10800
+d2, h1: -1 5 905.0
+Publishing load forecast to AMES:  10800 loadforecastRTM_LSE1 905.0
+time step:  14400
+d, h: 0 4
+NSteps: 1
+RTM y: 14400
+d2, h1: -1 6 905.0
+Publishing load forecast to AMES:  14400 loadforecastRTM_LSE1 905.0
+time step:  18000
+d, h: 0 5
+NSteps: 1
+RTM y: 18000
+d2, h1: -1 7 905.0
+Publishing load forecast to AMES:  18000 loadforecastRTM_LSE1 905.0
+time step:  21600
+d, h: 0 6
+NSteps: 1
+RTM y: 21600
+d2, h1: -1 8 905.0
+Publishing load forecast to AMES:  21600 loadforecastRTM_LSE1 905.0
+time step:  25200
+d, h: 0 7
+NSteps: 1
+RTM y: 25200
+d2, h1: -1 9 905.0
+Publishing load forecast to AMES:  25200 loadforecastRTM_LSE1 905.0
+time step:  28800
+d, h: 0 8
+NSteps: 1
+RTM y: 28800
+d2, h1: -1 10 905.0
+Publishing load forecast to AMES:  28800 loadforecastRTM_LSE1 905.0
+time step:  32400
+d, h: 0 9
+NSteps: 1
+RTM y: 32400
+d2, h1: -1 11 905.0
+Publishing load forecast to AMES:  32400 loadforecastRTM_LSE1 905.0
+time step:  36000
+d, h: 0 10
+NSteps: 1
+RTM y: 36000
+d2, h1: -1 12 905.0
+Publishing load forecast to AMES:  36000 loadforecastRTM_LSE1 905.0
+time step:  39600
+d, h: 0 11
+NSteps: 1
+RTM y: 39600
+d2, h1: -1 13 905.0
+Publishing load forecast to AMES:  39600 loadforecastRTM_LSE1 905.0
+time step:  43200
+d, h: 0 12
+NSteps: 1
+RTM y: 43200
+d2, h1: -1 14 905.0
+Publishing load forecast to AMES:  43200 loadforecastRTM_LSE1 905.0
+time step:  46800
+d, h: 0 13
+NSteps: 1
+RTM y: 46800
+d2, h1: -1 15 905.0
+Publishing load forecast to AMES:  46800 loadforecastRTM_LSE1 905.0
+time step:  50400
+d, h: 0 14
+NSteps: 1
+RTM y: 50400
+d2, h1: -1 16 905.0
+Publishing load forecast to AMES:  50400 loadforecastRTM_LSE1 905.0
+time step:  54000
+d, h: 0 15
+NSteps: 1
+RTM y: 54000
+d2, h1: -1 17 905.0
+Publishing load forecast to AMES:  54000 loadforecastRTM_LSE1 905.0
+time step:  57600
+d, h: 0 16
+NSteps: 1
+RTM y: 57600
+d2, h1: -1 18 905.0
+Publishing load forecast to AMES:  57600 loadforecastRTM_LSE1 905.0
+time step:  61200
+d, h: 0 17
+NSteps: 1
+RTM y: 61200
+d2, h1: -1 19 905.0
+Publishing load forecast to AMES:  61200 loadforecastRTM_LSE1 905.0
+time step:  64800
+d, h: 0 18
+NSteps: 1
+RTM y: 64800
+d2, h1: -1 20 905.0
+Publishing load forecast to AMES:  64800 loadforecastRTM_LSE1 905.0
+time step:  68400
+d, h: 0 19
+NSteps: 1
+RTM y: 68400
+d2, h1: -1 21 906.0
+Publishing load forecast to AMES:  68400 loadforecastRTM_LSE1 906.0
+time step:  72000
+d, h: 0 20
+NSteps: 1
+RTM y: 72000
+d2, h1: -1 22 907.0
+Publishing load forecast to AMES:  72000 loadforecastRTM_LSE1 907.0
+time step:  75600
+d, h: 0 21
+NSteps: 1
+RTM y: 75600
+d2, h1: -1 23 908.0
+Publishing load forecast to AMES:  75600 loadforecastRTM_LSE1 908.0
+time step:  79200
+d, h: 0 22
+NSteps: 1
+RTM y: 79200
+d2, h1: -1 24 909.0
+Publishing load forecast to AMES:  79200 loadforecastRTM_LSE1 909.0
+time step:  82800
+d, h: 0 23
+NSteps: 1
+RTM y: 82800
+d2, h1: 0 1 601.0
+Publishing load forecast to AMES:  82800 loadforecastRTM_LSE1 601.0
+time step:  86400
+d, h: 1 0
+NSteps: 1
+RTM y: 86400
+d2, h1: 0 2 602.0
+Publishing load forecast to AMES:  86400 loadforecastRTM_LSE1 602.0
+time step:  90000
+d, h: 1 1
+NSteps: 1
+RTM y: 90000
+d2, h1: 0 3 603.0
+Publishing load forecast to AMES:  90000 loadforecastRTM_LSE1 603.0
+time step:  93600
+d, h: 1 2
+NSteps: 1
+RTM y: 93600
+d2, h1: 0 4 604.0
+Publishing load forecast to AMES:  93600 loadforecastRTM_LSE1 604.0
+time step:  97200
+d, h: 1 3
+NSteps: 1
+RTM y: 97200
+d2, h1: 0 5 605.0
+Publishing load forecast to AMES:  97200 loadforecastRTM_LSE1 605.0
+time step:  100800
+d, h: 1 4
+NSteps: 1
+RTM y: 100800
+d2, h1: 0 6 605.0
+Publishing load forecast to AMES:  100800 loadforecastRTM_LSE1 605.0
+time step:  104400
+d, h: 1 5
+NSteps: 1
+RTM y: 104400
+d2, h1: 0 7 605.0
+Publishing load forecast to AMES:  104400 loadforecastRTM_LSE1 605.0
+time step:  108000
+d, h: 1 6
+NSteps: 1
+RTM y: 108000
+d2, h1: 0 8 605.0
+Publishing load forecast to AMES:  108000 loadforecastRTM_LSE1 605.0
+time step:  111600
+d, h: 1 7
+NSteps: 1
+RTM y: 111600
+d2, h1: 0 9 605.0
+Publishing load forecast to AMES:  111600 loadforecastRTM_LSE1 605.0
+time step:  115200
+d, h: 1 8
+NSteps: 1
+RTM y: 115200
+d2, h1: 0 10 605.0
+Publishing load forecast to AMES:  115200 loadforecastRTM_LSE1 605.0
+time step:  118800
+d, h: 1 9
+NSteps: 1
+RTM y: 118800
+d2, h1: 0 11 605.0
+Publishing load forecast to AMES:  118800 loadforecastRTM_LSE1 605.0
+time step:  122400
+d, h: 1 10
+NSteps: 1
+RTM y: 122400
+d2, h1: 0 12 605.0
+Publishing load forecast to AMES:  122400 loadforecastRTM_LSE1 605.0
+time step:  126000
+d, h: 1 11
+NSteps: 1
+RTM y: 126000
+d2, h1: 0 13 605.0
+Publishing load forecast to AMES:  126000 loadforecastRTM_LSE1 605.0
+time step:  129600
+d, h: 1 12
+NSteps: 1
+RTM y: 129600
+d2, h1: 0 14 605.0
+Publishing load forecast to AMES:  129600 loadforecastRTM_LSE1 605.0
+time step:  133200
+d, h: 1 13
+NSteps: 1
+RTM y: 133200
+d2, h1: 0 15 1005.0
+Publishing load forecast to AMES:  133200 loadforecastRTM_LSE1 1005.0
+time step:  136800
+d, h: 1 14
+NSteps: 1
+RTM y: 136800
+d2, h1: 0 16 605.0
+Publishing load forecast to AMES:  136800 loadforecastRTM_LSE1 605.0
+time step:  140400
+d, h: 1 15
+NSteps: 1
+RTM y: 140400
+d2, h1: 0 17 605.0
+Publishing load forecast to AMES:  140400 loadforecastRTM_LSE1 605.0
+time step:  144000
+d, h: 1 16
+NSteps: 1
+RTM y: 144000
+d2, h1: 0 18 605.0
+Publishing load forecast to AMES:  144000 loadforecastRTM_LSE1 605.0
+time step:  147600
+d, h: 1 17
+NSteps: 1
+RTM y: 147600
+d2, h1: 0 19 605.0
+Publishing load forecast to AMES:  147600 loadforecastRTM_LSE1 605.0
+time step:  151200
+d, h: 1 18
+NSteps: 1
+RTM y: 151200
+d2, h1: 0 20 605.0
+Publishing load forecast to AMES:  151200 loadforecastRTM_LSE1 605.0
+time step:  154800
+d, h: 1 19
+NSteps: 1
+RTM y: 154800
+d2, h1: 0 21 606.0
+Publishing load forecast to AMES:  154800 loadforecastRTM_LSE1 606.0
+time step:  158400
+d, h: 1 20
+NSteps: 1
+RTM y: 158400
+d2, h1: 0 22 607.0
+Publishing load forecast to AMES:  158400 loadforecastRTM_LSE1 607.0
+time step:  162000
+d, h: 1 21
+NSteps: 1
+RTM y: 162000
+d2, h1: 0 23 608.0
+Publishing load forecast to AMES:  162000 loadforecastRTM_LSE1 608.0
+time step:  165600
+d, h: 1 22
+NSteps: 1
+RTM y: 165600
+d2, h1: 0 24 609.0
+Publishing load forecast to AMES:  165600 loadforecastRTM_LSE1 609.0
+time step:  169200
+d, h: 1 23
+NSteps: 1
+RTM y: 169200
+d2, h1: 1 1 711.0
+Publishing load forecast to AMES:  169200 loadforecastRTM_LSE1 711.0
+time step:  172800
+d, h: 2 0
+NSteps: 1
+RTM y: 172800
+d2, h1: 1 2 702.0
+Publishing load forecast to AMES:  172800 loadforecastRTM_LSE1 702.0
+time step:  176400
+d, h: 2 1
+NSteps: 1
+RTM y: 176400
+d2, h1: 1 3 703.0
+Publishing load forecast to AMES:  176400 loadforecastRTM_LSE1 703.0
+time step:  180000
+d, h: 2 2
+NSteps: 1
+RTM y: 180000
+d2, h1: 1 4 704.0
+Publishing load forecast to AMES:  180000 loadforecastRTM_LSE1 704.0
+time step:  183600
+d, h: 2 3
+NSteps: 1
+RTM y: 183600
+d2, h1: 1 5 705.0
+Publishing load forecast to AMES:  183600 loadforecastRTM_LSE1 705.0
+time step:  187200
+d, h: 2 4
+NSteps: 1
+RTM y: 187200
+d2, h1: 1 6 705.0
+Publishing load forecast to AMES:  187200 loadforecastRTM_LSE1 705.0
+time step:  190800
+d, h: 2 5
+NSteps: 1
+RTM y: 190800
+d2, h1: 1 7 705.0
+Publishing load forecast to AMES:  190800 loadforecastRTM_LSE1 705.0
+time step:  194400
+d, h: 2 6
+NSteps: 1
+RTM y: 194400
+d2, h1: 1 8 705.0
+Publishing load forecast to AMES:  194400 loadforecastRTM_LSE1 705.0
+time step:  198000
+d, h: 2 7
+NSteps: 1
+RTM y: 198000
+d2, h1: 1 9 705.0
+Publishing load forecast to AMES:  198000 loadforecastRTM_LSE1 705.0
+time step:  201600
+d, h: 2 8
+NSteps: 1
+RTM y: 201600
+d2, h1: 1 10 705.0
+Publishing load forecast to AMES:  201600 loadforecastRTM_LSE1 705.0
+time step:  205200
+d, h: 2 9
+NSteps: 1
+RTM y: 205200
+d2, h1: 1 11 705.0
+Publishing load forecast to AMES:  205200 loadforecastRTM_LSE1 705.0
+time step:  208800
+d, h: 2 10
+NSteps: 1
+RTM y: 208800
+d2, h1: 1 12 705.0
+Publishing load forecast to AMES:  208800 loadforecastRTM_LSE1 705.0
+time step:  212400
+d, h: 2 11
+NSteps: 1
+RTM y: 212400
+d2, h1: 1 13 705.0
+Publishing load forecast to AMES:  212400 loadforecastRTM_LSE1 705.0
+time step:  216000
+d, h: 2 12
+NSteps: 1
+RTM y: 216000
+d2, h1: 1 14 705.0
+Publishing load forecast to AMES:  216000 loadforecastRTM_LSE1 705.0
+time step:  219600
+d, h: 2 13
+NSteps: 1
+RTM y: 219600
+d2, h1: 1 15 705.0
+Publishing load forecast to AMES:  219600 loadforecastRTM_LSE1 705.0
+time step:  223200
+d, h: 2 14
+NSteps: 1
+RTM y: 223200
+d2, h1: 1 16 705.0
+Publishing load forecast to AMES:  223200 loadforecastRTM_LSE1 705.0
+time step:  226800
+d, h: 2 15
+NSteps: 1
+RTM y: 226800
+d2, h1: 1 17 705.0
+Publishing load forecast to AMES:  226800 loadforecastRTM_LSE1 705.0
+time step:  230400
+d, h: 2 16
+NSteps: 1
+RTM y: 230400
+d2, h1: 1 18 705.0
+Publishing load forecast to AMES:  230400 loadforecastRTM_LSE1 705.0
+time step:  234000
+d, h: 2 17
+NSteps: 1
+RTM y: 234000
+d2, h1: 1 19 705.0
+Publishing load forecast to AMES:  234000 loadforecastRTM_LSE1 705.0
+time step:  237600
+d, h: 2 18
+NSteps: 1
+RTM y: 237600
+d2, h1: 1 20 705.0
+Publishing load forecast to AMES:  237600 loadforecastRTM_LSE1 705.0
+time step:  241200
+d, h: 2 19
+NSteps: 1
+RTM y: 241200
+d2, h1: 1 21 706.0
+Publishing load forecast to AMES:  241200 loadforecastRTM_LSE1 706.0
+time step:  244800
+d, h: 2 20
+NSteps: 1
+RTM y: 244800
+d2, h1: 1 22 707.0
+Publishing load forecast to AMES:  244800 loadforecastRTM_LSE1 707.0
+time step:  248400
+d, h: 2 21
+NSteps: 1
+RTM y: 248400
+d2, h1: 1 23 708.0
+Publishing load forecast to AMES:  248400 loadforecastRTM_LSE1 708.0
+time step:  252000
+d, h: 2 22
+NSteps: 1
+RTM y: 252000
+d2, h1: 1 24 709.0
+Publishing load forecast to AMES:  252000 loadforecastRTM_LSE1 709.0
+time step:  255600
+d, h: 2 23
+NSteps: 1
+RTM y: 255600
+d2, h1: 2 1 801.0
+Publishing load forecast to AMES:  255600 loadforecastRTM_LSE1 801.0
+time step:  259200
+d, h: 3 0
+NSteps: 1
+RTM y: 259200
+d2, h1: 2 2 802.0
+Publishing load forecast to AMES:  259200 loadforecastRTM_LSE1 802.0
+time step:  262800
+d, h: 3 1
+NSteps: 1
+RTM y: 262800
+d2, h1: 2 3 803.0
+Publishing load forecast to AMES:  262800 loadforecastRTM_LSE1 803.0
+time step:  266400
+d, h: 3 2
+NSteps: 1
+RTM y: 266400
+d2, h1: 2 4 804.0
+Publishing load forecast to AMES:  266400 loadforecastRTM_LSE1 804.0
+time step:  270000
+d, h: 3 3
+NSteps: 1
+RTM y: 270000
+d2, h1: 2 5 805.0
+Publishing load forecast to AMES:  270000 loadforecastRTM_LSE1 805.0
+time step:  273600
+d, h: 3 4
+NSteps: 1
+RTM y: 273600
+d2, h1: 2 6 805.0
+Publishing load forecast to AMES:  273600 loadforecastRTM_LSE1 805.0
