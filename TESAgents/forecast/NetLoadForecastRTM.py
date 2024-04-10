@@ -8,8 +8,7 @@ parent, root = file.parent, file.parents[1]
 sys.path.append(str(root))
 import fncs
 
-# FileName = f'{name}RTM.json'
-# FilePath = './forecast/data/'
+
 
 def NetLoadScenarioDataJsonFormat(filename):
 	NLSE = 0
@@ -115,8 +114,7 @@ print('M:', M)
 
 load = []
 
-
-FileName = f'{name}RTM.json'
+FileName = f"{name}RTM.json"
 FilePath = './forecast/data/'
 
 import os
