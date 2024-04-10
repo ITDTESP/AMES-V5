@@ -3506,7 +3506,7 @@ public class AMESFrame extends JFrame {
         }
         
         
-        String forecast_file_name = "NetLoadScData."+filename+".DAM.json";
+        String forecast_file_name = filename+"DAM.json";
 
         String directory=caseFileDirectory + "/TESAgents/forecast/data";
         boolean check = new File(directory, forecast_file_name).exists();

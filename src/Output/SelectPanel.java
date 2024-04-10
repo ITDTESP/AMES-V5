@@ -60,7 +60,7 @@ public class SelectPanel extends javax.swing.JPanel {
         }
         else{
             dataTypeComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Grid Branches", "GenCos", "LSE Fixed Demand"}));
-            outputDataTypeComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "GenCo Schedules (Benchmark)", "GenCo Profits (Benchmark)","GenCo Net Earnings (Benchmark)", "LSE Price-Sensitive Demand (Benchmark)", "LSE Price-Sens. Net Earnings (Benchmark)", "LMPs (Benchmark)", "Total Supply&Demand (Benchmark)", "GenCo Reported Supply Offers", "GenCo Schedules", "GenCo Profits", "GenCo Net Earnings", "LSE Price-Sensitive Net Earnings", "Total Reported Supply & Demand", "LSE Price-Sensitive Demand", "Branch Power Flows", "LMPs", "RealTimeLMPs"}));
+            outputDataTypeComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] {"GenCo Reported Supply Offers", "GenCo Schedules", "GenCo Profits", "GenCo Net Earnings", "LSE Price-Sensitive Net Earnings", "Total Reported Supply & Demand", "LSE Price-Sensitive Demand", "Branch Power Flows", "LMPs", "RealTimeLMPs"}));
 
          }
         
