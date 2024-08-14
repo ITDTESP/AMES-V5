@@ -70,7 +70,7 @@ AMES V5.X is only supported on Windows Platform.
 
 	"pip install numpy==1.22.3"  		; The PSST has to be integrated with this version of numpy or a version that's later than 1.23.0 otherwise PSST would show an import error: "Cannot import name 'asscalar' from 'numpy'
 	
-	"pip install scipy"					; Newer versions work at present (August, 2022)
+	"pip install scipy"				; Newer versions work at present (August, 2022)
 		
 	"pip install pyutilib"				; Newer versions work at present.(August, 2022)
 
