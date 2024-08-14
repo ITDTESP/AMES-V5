@@ -5,23 +5,12 @@ YAMLPath = "./yamlFiles/"
 TSAgent = 'ames' 
 
 
-if len(sys.argv) == 4:
-	NTxBus = (sys.argv[1])
-	NLSE = int(sys.argv[2])
-	TxBus = (sys.argv[3])
-elif len(sys.argv) == 3:
-	NTxBus = (sys.argv[1])
-	NLSE = int(sys.argv[2])
-	TxBus = 1
-elif len(sys.argv) == 2:
-	NTxBus = (sys.argv[1])
-	NLSE = 1
-	TxBus = 1
-elif len(sys.argv) == 1:
-	NTxBus = 2
-	NLSE = 1
-	TxBus = 1
-    
+NLSE = int(sys.argv[1])
+NTxBus = int(sys.argv[2])
+ITD = int(sys.argv[3])
+TxBus = int(sys.argv[4])
+	
+#print("NLSE:", NLSE,"NTxBus:", NTxBus, "ITD:", ITD, "TxBus:", TxBus) 
 NHours = 24
 
 auction_datayaml = {}
@@ -36,10 +25,11 @@ for k in range(NLSE):
 	for j in range(NHours):
 		auction_datayaml['values']['loadforecastDAM_LSE'+str(k+1)+'_H'+str(j+1)] = {'topic': 'NetLoadForecastDAM/loadforecastDAM_LSE'+str(k+1)+'_H'+str(j+1), 'default': 1}
 
-# for n in range(NTxBus):
-    # if n == TxBus:
-        # for j in range(NHours):
-                # auction_datayaml['values']['DALoadForecast_IDSO_'+ str(TxBus) +'_H'+str(j+1)] = {'topic': 'IDSO_'+ str(TxBus)+'/DALoadForecast_IDSO_'+str(TxBus)+'_H'+str(j+1), 'default': 1}
+if ITD == 1:
+	for n in range(NTxBus):
+		if n == (TxBus-1):
+			for j in range(NHours):
+				auction_datayaml['values']['DALoadForecast_IDSO_'+ str(TxBus) +'_H'+str(j+1)] = {'topic': 'IDSO_'+ str(TxBus)+'/DALoadForecast_IDSO_'+str(TxBus)+'_H'+str(j+1), 'default': 1}
 
 with open( YAMLPath + TSAgent + '.yaml', 'w') as outfile: 
     yaml.dump(auction_datayaml, outfile, default_flow_style=False)
