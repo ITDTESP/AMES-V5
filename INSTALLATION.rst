@@ -73,6 +73,8 @@ AMES V5.X is only supported on Windows Platform.
 	"pip install scipy"					; Newer versions work at present (August, 2022)
 		
 	"pip install pyutilib"				; Newer versions work at present.(August, 2022)
+
+	"pip install pyyaml"				; Newer versions work at present.(August, 2024)
 			
 5. 	Install psst.
 	
