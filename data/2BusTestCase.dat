@@ -8,6 +8,9 @@ BASE_V 10
 FNCSActive true
 MaxDay 2
 
+//Number of LSEs
+NLSE 2 
+
 RTOPDur 60
 RTKDur 60
 
