@@ -3490,43 +3490,6 @@ public class AMESFrame extends JFrame {
 ////        
 ////        
 //        runBatchFileWithArgument(batchFilePath,filename);
-   
-        // String pythonInterpreter = "python";
-        // String pythonScriptPath = caseFileDirectory + "/TESAgents/yamlWriter.py";
-        
-        // // Build the command
-        // String[] command = {pythonInterpreter, pythonScriptPath, filename};
-        // ProcessBuilder processBuilder = new ProcessBuilder(command);
-        // processBuilder.directory(new File(caseFileDirectory + "/TESAgents"));
-        // try {
-        //     Process process = processBuilder.start();
-            
-        //     // Read the output from the Python script
-        //     BufferedReader reader = new BufferedReader(
-        //             new InputStreamReader(process.getInputStream()));
-
-        //     String line;
-        //     while ((line = reader.readLine()) != null) {
-        //         System.out.println("Python Output: " + line);
-        //     }
-
-        //     // Read any errors from the attempted command
-        //     BufferedReader errorReader = new BufferedReader(
-        //             new InputStreamReader(process.getErrorStream()));
-
-        //     String errorLine;
-        //     while ((errorLine = errorReader.readLine()) != null) {
-        //         System.err.println("Python Error: " + errorLine);
-        //     }
-
-        //     // Wait for the process to complete
-        //     int exitCode = process.waitFor();
-        //     System.out.println("Python script exited with code: " + exitCode);
-
-        // } catch (IOException | InterruptedException e) {
-        //     e.printStackTrace();
-        // }
-        
         
         if (FNCSActive) {
             
