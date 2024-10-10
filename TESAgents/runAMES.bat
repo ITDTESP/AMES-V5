@@ -58,15 +58,15 @@ set "deltaT=300"
 set /a "tmax=%MaxDay%*86400+%NHour%*3600"
 set /a "NoOfProcesses=3"
 @ECHO ON
-rem start /b cmd /c python yamlWriter.py %content%
+
 
 set FNCS_CONFIG_FILE=%YAMLFilesDir%/NetLoadForecastDAM.yaml
-set FNCS_LOG_LEVEL=DEBUG4
+set FNCS_LOG_LEVEL=
 start /b cmd /c python %ForecastDir%/NetLoadForecastDAM.py %tmax% %RTOPDur% %content% ^>%LogFilesDir%/NetLoadForecastDAM.log 2^>^&1
 
 set FNCS_CONFIG_FILE=%YAMLFilesDir%/NetLoadForecastRTM.yaml
-set FNCS_LOG_LEVEL=DEBUG4
+set FNCS_LOG_LEVEL=
 start /b cmd /c python %ForecastDir%/NetLoadForecastRTM.py %tmax% %RTOPDur% %content% ^>%LogFilesDir%/NetLoadForecastRTM.log 2^>^&1
 
-set FNCS_LOG_LEVEL=DEBUG4
+set FNCS_LOG_LEVEL=DEBUG2
 start /b cmd /c fncs_broker %NoOfProcesses% ^>%LogFilesDir%/broker.log 2^>^&1
