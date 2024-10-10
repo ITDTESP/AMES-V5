@@ -56,6 +56,10 @@ import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 
 
 public class AMESFrame extends JFrame {
@@ -3466,27 +3470,20 @@ public class AMESFrame extends JFrame {
         }
     }
 
-   
-    
-
-    
-    
-    
-
-
-    
+     
     
     ///========
 
     private void startItemActionPerformed(java.awt.event.ActionEvent evt) {
         String filename = removeLastFourCharacters(this.caseFile.getName());
         
-        //String location = "D:/ITDTESPlatform/AMES-V5.1/TESAgents/outputFiles/newfile.txt";
         caseFileDirectory = this.caseFile.getParentFile().getParentFile();
-        String location = caseFileDirectory + "/TESAgents/outputFiles/newfile.txt";
+        String location = caseFileDirectory + "/TESAgents/outputFiles/CaseName.txt";
 
-       
         createTextFile(location, filename);
+        
+        
+        
 ////        add code to run the batch file
 //        String batchFilePath = "D:/ITDTESPlatform/AMES-V5.1/TESAgents/runAMES.bat";
 ////        
@@ -3494,13 +3491,80 @@ public class AMESFrame extends JFrame {
 ////        
 //        runBatchFileWithArgument(batchFilePath,filename);
    
+        // String pythonInterpreter = "python";
+        // String pythonScriptPath = caseFileDirectory + "/TESAgents/yamlWriter.py";
         
-        
-        
-        
+        // // Build the command
+        // String[] command = {pythonInterpreter, pythonScriptPath, filename};
+        // ProcessBuilder processBuilder = new ProcessBuilder(command);
+        // processBuilder.directory(new File(caseFileDirectory + "/TESAgents"));
+        // try {
+        //     Process process = processBuilder.start();
+            
+        //     // Read the output from the Python script
+        //     BufferedReader reader = new BufferedReader(
+        //             new InputStreamReader(process.getInputStream()));
+
+        //     String line;
+        //     while ((line = reader.readLine()) != null) {
+        //         System.out.println("Python Output: " + line);
+        //     }
+
+        //     // Read any errors from the attempted command
+        //     BufferedReader errorReader = new BufferedReader(
+        //             new InputStreamReader(process.getErrorStream()));
+
+        //     String errorLine;
+        //     while ((errorLine = errorReader.readLine()) != null) {
+        //         System.err.println("Python Error: " + errorLine);
+        //     }
+
+        //     // Wait for the process to complete
+        //     int exitCode = process.waitFor();
+        //     System.out.println("Python script exited with code: " + exitCode);
+
+        // } catch (IOException | InterruptedException e) {
+        //     e.printStackTrace();
+        // }
         
         
         if (FNCSActive) {
+            
+        String pythonInterpreter = "python";
+        String pythonScriptPath = caseFileDirectory + "/TESAgents/yamlWriter.py";
+        
+        // Build the command
+        String[] command = {pythonInterpreter, pythonScriptPath, filename};
+        ProcessBuilder processBuilder = new ProcessBuilder(command);
+        processBuilder.directory(new File(caseFileDirectory + "/TESAgents"));
+        try {
+            Process process = processBuilder.start();
+            
+            // Read the output from the Python script
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(process.getInputStream()));
+
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println("Python Output: " + line);
+            }
+
+            // Read any errors from the attempted command
+            BufferedReader errorReader = new BufferedReader(
+                    new InputStreamReader(process.getErrorStream()));
+
+            String errorLine;
+            while ((errorLine = errorReader.readLine()) != null) {
+                System.err.println("Python Error: " + errorLine);
+            }
+
+            // Wait for the process to complete
+            int exitCode = process.waitFor();
+            System.out.println("Python script exited with code: " + exitCode);
+
+            } catch (IOException | InterruptedException e) {
+                e.printStackTrace();
+            }
             fncs.JNIfncs.initialize();
             assert JNIfncs.is_initialized();
         }
